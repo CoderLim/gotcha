@@ -13,6 +13,13 @@
 *ps: 在该实例中，给float元素增加z-index:999，没有效果，因为z-index对position:static的元素没效果*<br/>
 *所以给float元素增加position:relative后就有效果了*
 
+
+设置了z-index的元素会单独形成stack context, 下面看看三个例子:
+
+:pencil2: [example1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_1)<br/>
+:rotating_light: [example2](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_2)<br/>
+:penguin: [example3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_3)<br/>
+
 ## reference
 
 1. [Understanding CSS z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index) <br/>
